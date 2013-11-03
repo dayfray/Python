@@ -1,3 +1,5 @@
+# monster chase game
+
 class Main(object):
 
 	max_width = 5
