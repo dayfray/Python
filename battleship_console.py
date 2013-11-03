@@ -28,8 +28,7 @@ print ship_col
 turn = 0
 
 for turn in range(4):
-# Everything from here on should go in your for loop!
-# Be sure to indent four spaces!
+
 
     guess_row = int(raw_input("Guess Row:"))
     guess_col = int(raw_input("Guess Col:"))
@@ -54,6 +53,6 @@ for turn in range(4):
             print "You missed my battleship!"
             board[guess_row][guess_col] = "X"
               
-    # Print (turn + 1) here!
+   
             print turn + 1
             print_board(board)
