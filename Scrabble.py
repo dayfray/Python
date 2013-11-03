@@ -65,59 +65,10 @@ What is the word you created in Scrabble? 1
 Your score is: None points.
 
 
-"""
-
-
-
-
-
-
-
-""" When I try with this code, however, it comes with an error:
-
-
-# This is a scrabble cheater made in Python
-
-scores = { "a" : 1, "b" : 3, "c" : 3, "d" : 2, "e" : 1, "f" : 4, "g" : 2, "h" : 4, "i" : 1, "j" : 8, 
-"k" : 5, "l" : 1, "m" : 3, "n" : 1, "o" : 1, "p" : 3, "q" : 10, "r" : 1, "s" : 1, "t" : 1, "u" : 1, "v" : 4, "w" : 4, "x" : 8, "y" : 4, "z" : 10}
-
-
-
-
-
-def scrabble_score(word):
-    
-    if len(str(word)) > 0 and word.isalpha():
-    	word = word.lower()
-    	result = 0
-    	for letter in word:
-    	    result += scores[letter]
-    	return result
-
-	elif len(str(word)) <= 0 or [word.isint() or word.isfloat()]:
-		print "You have entered an incorrect response. Please try again."
-
-
-print "Your score is: " + str(scrabble_score(raw_input("What is the word you created in Scrabble? "))) + " points."
-
-
-
-
-
-
-
-kemet@kemet-P15xEMx ~ $ python '/home/kemet/Programming Tutorials/Python Tutorials/Python Tutorials - Web Pages/Project Files/Scrabble.py'
-  
-
-  
-  File "/home/kemet/Programming Tutorials/Python Tutorials/Python Tutorials - Web Pages/Project Files/Scrabble.py", line 19
-  
-    elif len(str(word)) <= 0 or [word.isint() or word.isfloat()]:
-       ^
-SyntaxError: invalid syntax
-
-
+Need to work on that.
 
 """
+
+
 
 
