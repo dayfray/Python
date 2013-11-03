@@ -97,7 +97,7 @@ def rpsls(name):
     # print results
     
     
-# test your code
+# testing the code
 rpsls("rock")
 print "====="
 print ""
@@ -112,6 +112,6 @@ print "====="
 print ""
 rpsls("scissors")
 
-# always remember to check your completed program against the grading rubric
+
 
 
