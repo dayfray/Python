@@ -14,7 +14,7 @@ num_range1000 = 0
 
 # helper function to start and restart the game
 def new_game():
-    # remove this when you add your code  
+    
     global last_range 
     global count
     global num_range100
@@ -38,7 +38,7 @@ def range100():
     last_range = 101
     num_range100 = random.randrange(0, last_range)
     
-    # remove this when you add your code    
+        
     
 
 def range1000():
@@ -51,7 +51,7 @@ def range1000():
     last_range = 1001
     num_range1000 = random.randrange(0, last_range)
     
-    # remove this when you add your code    
+       
     
     
 def input_guess(guess):
@@ -133,7 +133,7 @@ def input_guess(guess):
             print "The hidden number was " + str(num_range1000)
             print ""
             new_game()
-    # remove this when you add your code
+
     
 
     
@@ -153,5 +153,4 @@ f.add_input("Enter Guess Here", input_guess, 100)
 new_game()
 
 
-# always remember to check your completed program against the grading rubric
 
