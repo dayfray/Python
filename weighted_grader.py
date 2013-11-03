@@ -1,4 +1,3 @@
-
 lloyd = {
     "name": "Lloyd",
     "homework": [90.0, 97.0, 75.0, 92.0],
@@ -18,12 +17,12 @@ tyler = {
     "tests": [100.0, 100.0]
 }
 
-# Add your function below!
+
 students = [lloyd,alice,tyler]
 
 def average(list_of_numbers):
-    return sum(list_of_numbers)/len(list_of_numbers) 	# so we didn't need to print anything, so all we did was return the
-														# average of a given list of numbers
+    return sum(list_of_numbers)/len(list_of_numbers) 
+														
 
 def get_average(student):
     avg_homework = average(student["homework"]) * 0.1 #weight of homework is 10%, this is just using the average function from above
@@ -35,7 +34,6 @@ print get_average(alice) # this can be used with the input of any of the student
 
 
 
-# Next part wants me to print the weighted grades with their grade values
 
 
 lloyd = {
@@ -85,8 +83,6 @@ score = get_average(lloyd)
 print get_letter_grade(score)
 
 
-# Coming is the complete class average of all of the class, I just made the function without having done any Python
-# for a week or so, now.
 
 lloyd = {
     "name": "Lloyd",
@@ -107,7 +103,7 @@ tyler = {
     "tests": [100.0, 100.0]
 }
 
-# Add your function below!
+
 students = [lloyd,alice,tyler]
 
 def average(list_of_numbers):
@@ -140,7 +136,6 @@ def get_class_average(x):
     tyler_avg = get_average(tyler)
     return (lloyd_avg + alice_avg + tyler_avg)/3
 
-# Then they just wanted me to add something which would print out the results of doing the class average 
-#on the list of students 
+
 
 print get_class_average(students)
